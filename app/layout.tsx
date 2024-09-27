@@ -35,7 +35,6 @@ export default function RootLayout({
         <main className ={"relative overflow-hidden"}>
           <Hero />
           </main>
-        <Footer/>
       </body>
     </html>
   );
