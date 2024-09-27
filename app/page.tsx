@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <section className={inter.className}>
-      <div className="flex bg8 justify-end p-8"> 
+      <div className="flex bg8 justify-end"> 
         <div >
             <a className="flex text-4xl font-bold p-8">Braeunling Consulting</a>
         </div>

@@ -33,13 +33,8 @@ body {
 
 .bg8 {
   background: #1A6193CC;
-  width: Fixed (1,728px)px;
-  height: Fixed (120px)px;
-  padding: 0px 85.33px 0px 85.33px;
-  gap: 0px;
-  border: 0px 0px 3px 0px;
-  opacity: 0px;
 }
+
 .nav-text {
   font-size: 26px;
   font-weight: 700;
