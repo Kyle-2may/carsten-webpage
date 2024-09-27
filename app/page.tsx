@@ -9,8 +9,8 @@ export default function Home() {
   return (
     <section className={inter.className}>
       <div className="flex flex-row-reverse bg8"> 
-        <div className="text-4xl font-bold pr-4 align-right">
-            Braeunling Consulting
+        <div >
+            <a className="text-4xl font-bold pr-4">Braeunling Consulting</a>
         </div>
     </div>
       <div className='flex-center flex-col'>
