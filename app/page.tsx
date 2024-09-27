@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <section className={inter.className}>
       <div className="flex flex-row-reverse nav-background"> 
-        <div className="nav-text p-4 align-right">
+        <div className="text-4xl font-bold p-4 align-right">
             Braeunling Consulting
         </div>
     </div>
