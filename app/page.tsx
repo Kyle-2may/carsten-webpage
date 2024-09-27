@@ -14,13 +14,13 @@ export default function Home() {
         </div>
     </div>
       <div className='flex-center flex-col'>
-        <div className='flex flex-wrap bg1 padding-container max-container w-full pb-24 pt-24'>
+        <div className='flex flex-wrap bg1 padding-container max-container w-full pb-24 pt-24 pl-24'>
           <div>
             <Image alt="Picture of Carsten Braeunling" width={240} height={240} src={CarstenImg} ></Image>
           </div>
-          <div className="flex-nowrap grow basis-1/2 justify-between gap-5 lg:gap-10 content-center">
+          <div className="flex-nowrap grow basis-1/2 justify-between gap-5 lg:gap-10 content-center pl-40">
             <h2 className='intro-header text-4xl font-bold -mt-1 -mb-3'>Automotive Engeneering & Program Management </h2>
-            <p className='text-black intro-body roboto-regular text-2xl pt-5 '>I am Carsten Bräunling, Head of Braeunling Consulting, with 30 years of experience in the automotive Industry, working as a Senior Program Manager.</p>
+            <p className='text-black roboto-regular text-2xl pt-5 -mt-1 -mb-3 max-w-screen-md'>I am Carsten Bräunling, Head of Braeunling Consulting, with 30 years of experience in the automotive Industry, working as a Senior Program Manager.</p>
           </div>
         </div>
         <div className='flex-row pb-16 pt-16 pl-32 bg4 flex flex-wrap'>

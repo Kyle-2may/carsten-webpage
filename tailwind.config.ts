@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       carstenImage: {
-        'carsten': "url('/Carsten.png')",
+        
       },
       colors: {
         background: "var(--background)",
