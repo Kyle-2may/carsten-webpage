@@ -10,7 +10,7 @@ export default function Home() {
     <section className={inter.className}>
       <div className="flex bg8 justify-end"> 
         <div >
-            <a className="flex text-4xl font-bold p-8">Braeunling Consulting</a>
+            <a className="flex text-4xl font-bold p-8 font-white">Braeunling Consulting</a>
         </div>
     </div>
       <div className='flex-center flex-col'>
@@ -19,8 +19,8 @@ export default function Home() {
             <Image alt="Picture of Carsten Braeunling" width={240} height={240} src={CarstenImg} ></Image>
           </div>
           <div className="flex-nowrap grow basis-1/2 justify-between gap-5 lg:gap-10 content-center pl-40">
-            <h2 className='intro-header text-4xl font-bold -mt-1 -mb-3'>Automotive Engeneering & Program Management </h2>
-            <p className='text-black roboto-regular text-2xl pt-5 -mt-1 -mb-3 max-w-screen-md'>I am Carsten Bräunling, Head of Braeunling Consulting, with 30 years of experience in the automotive Industry, working as a Senior Program Manager.</p>
+            <h2 className='intro-header text-4xl font-bold -mt-1 -mb-3'>Automotive Engineering & Program Management </h2>
+            <p className='text-black roboto-regular text-2xl pt-5 -mt-1 -mb-3 max-w-screen-md'>Carsten Bräunling, Head of Braeunling Consulting,<br/> with 30 years of experience in the automotive Industry,<br/> working as a Senior Program Manager.</p>
           </div>
         </div>
         <div className='flex-row pb-16 pt-16 pl-32 bg4 flex flex-wrap'>
@@ -50,8 +50,8 @@ export default function Home() {
             <div>
               <h2 className='bold-40 lg:bold-64 text-4xl p-10 col font-bold'>My Expertise</h2>
             </div>
-            <div className='flex flex-wrap grow gap-x-8 gap-y-2 py-6 min-w-56 justify-center'>
-              <div className='basis-1/4 bg3 text-black min-w-56 min-h-56 rounded-lg pl-8 ph-8 pr-8'>
+            <div className='flex flex-wrap grow gap-x-8 gap-y-2 py-6 min-w-56 justify-center mh-16'>
+              <div className='basis-1/4 bg3 text-black min-w-56 min-h-56 rounded-lg pl-8 ph-16 pr-8'>
                 <h2 className='py-5 text-2xl font-bold'>Senior program management</h2><a className='text-xl'>Managed complex projects with a focus on strategy, execution, and continuous improvement.</a>
               </div>
               <div className='basis-1/4 bg3 text-black min-w-56 min-h-56 rounded-lg pl-8 ph-8 pr-8'>
@@ -60,17 +60,44 @@ export default function Home() {
               <div className='basis-1/4 bg3 text-black min-w-56 rounded-lg pl-8 min-h-56 ph-8 pr-8'>
                 <h2 className='py-5 text-2xl font-bold'>Real Team Player</h2><a className='text-xl'>Strong collaborator, consistently fostering teamwork and collective problem-solving.</a>
               </div>
-              <div className='basis-1/4 bg3 text-black min-w-56 rounded-lg pl-8 min-h-56 ph-8 pr-8'>
+              <div className='basis-1/4 bg3 text-black min-w-56 rounded-lg pl-8 min-h-56 pt-30 pr-8'>
                 <h2 className='py-5 text-2xl font-bold'>Proven Leadership Skills</h2><a className='text-xl'>Demonstrated effective leadership in guiding teams to meet and exceed project goals.</a>
               </div>
-              <div className='basis-1/4 bg3 text-black min-w-56 rounded-lg pl-8 min-h-56 ph-8 pr-8'>
+              <div className='basis-1/4 bg3 text-black min-w-56 rounded-lg pl-8 min-h-56 pt-30 pr-8'>
                 <h2 className='py-5 text-2xl font-bold'>Driven by Entrepreneurship</h2><a className='text-xl'>Entrepreneurial mindset, always seeking innovative solutions and opportunities for growth.</a>
               </div>
-              <div className='basis-1/4 bg3 text-black min-w-56 rounded-lg pl-8 min-h-56 ph-8 pr-8'>
+              <div className='basis-1/4 bg3 text-black min-w-56 rounded-lg pl-8 min-h-56 pt-30 pr-8 '>
                 <h2 className='py-5 text-2xl font-bold ph-8 pr-8'>Experience in Lightweight Materials & Process</h2><a className='text-xl'>Specialized in lightweight materials and manufacturing processes to optimize product performance.</a>
               </div>
             </div>
           </div>
+        </div>
+        <div className="footer footer-text text-6xl pl-10 pt-10 bg5">
+        <div>
+        <a className="pb-10 col text-6xl font-bold">CV Summery</a>
+        <div className='grid-cols-2'>
+        <ul className='list-none pt-10 text-black grid-cols-2'>
+        <li className="pb-4"><a className='font-bold'>Date of Birth</a> <a className='pl-12'>1968</a></li>
+        <li className="pb-4"><a className='font-bold'>Languages</a> <a className='pl-16'>German, English, French(basic)</a></li>
+        <li className="pb-4"><a className='font-bold'>1990 - 1994</a> <a className='pl-12'>Mechanical Engineer (Academy Lörrach, GER)Academy</a> </li>
+        <li className="pb-4"><a className='font-bold'>1994 - 1998</a> <a className='pl-12'>Peguform GmbH</a></li>
+        <li className="pb-4"><a className='font-bold'>1998 - 2001</a> <a className='pl-12'>Textron Automotive - NL </a></li>
+        <li className="pb-4"><a className='font-bold'>2001 - 2013</a> <a className='pl-12'>Peguform GmbH (SMP)</a></li>
+        <li className="pb-4"><a className='font-bold'>since 04/2013</a> <a className='pl-6'>Consultant, Program Mngr. & Development</a></li>
+        </ul>
+        </div>
+        </div>
+        <div className="pt-20">
+        <a className="cv-summary pb-10 col text-6xl font-bold">Contact</a>
+        <ul className='list-none pt-10 text-black'>
+        <li className='font-bold'>Alte Poststraße 82</li>
+        <li className='font-bold'>85598 Baldham</li>
+        <li className='font-bold'>Germany</li>
+        <li className='pt-8'><a className='font-bold'>Mobile:</a> <a className='font-base pl-8'>+49 172 7669667</a></li>
+        <li className='pt-2 pb-8'><a className='font-bold'>Office:</a> <a className='font-base pl-10'>+49 89 12304345</a></li>
+        <li className='font-bold'>Braeunling-Consulting@t-online.de</li>
+        </ul>
+        </div>
         </div>
       </div>
     </section>
