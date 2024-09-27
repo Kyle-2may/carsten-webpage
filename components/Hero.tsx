@@ -8,9 +8,9 @@ const inter = Inter({ subsets: ['latin'] })
 const Hero = () => {
     return (
         <section className={inter.className}>
-                <div className="nav-background"> 
-        <div className="nav-text p-4">
-        Braeunling Consulting
+        <div className="flex flex-row-reverse nav-background"> 
+        <div className="nav-text p-4 align-right">
+            Braeunling Consulting
         </div>
     </div>
       <div className='flex-center flex-col'>
