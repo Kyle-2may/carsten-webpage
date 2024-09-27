@@ -72,7 +72,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="footer footer-text text-6xl pl-10 pt-10 bg5">
+        <div className="text-6xl pl-10 pt-10 bg5">
           <div>
             <a className="pb-10 col text-6xl font-bold">CV Summery</a>
             <div>
