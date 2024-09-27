@@ -1,13 +1,13 @@
 import Image from 'next/image'
-import CarstenImg from './Carsten.png'
+import CarstenImg from '../app/Carsten.png'
 import { Inter } from 'next/font/google'
-import Car from './Car.png'
+import Car from '../app/Car.png'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
-  return (
-    <section className={inter.className}>
+const Hero = () => {
+    return (
+        <section className={inter.className}>
       <div className='flex-center flex-col'>
         <div className='flex flex-wrap bg1 padding-container max-container w-full pb-24 pt-24'>
           <div>
@@ -69,5 +69,7 @@ export default function Home() {
         </div>
       </div>
     </section>
-  );
+    )
 }
+
+export default Hero
