@@ -50,24 +50,24 @@ export default function Home() {
             <div>
               <h2 className='bold-40 lg:bold-64 text-4xl p-10 col font-bold'>My Expertise</h2>
             </div>
-            <div className='flex flex-wrap grow gap-x-8 gap-y-2 py-6 min-w-56'>
-              <div className='basis-1/4 bg3 text-black min-w-56 rounded-lg'>
+            <div className='flex flex-wrap grow gap-x-8 gap-y-2 py-6 min-w-56 justify-center'>
+              <div className='basis-1/4 bg3 text-black min-w-56 min-h-56 rounded-lg pl-8 ph-8 pr-8'>
                 <h2 className='py-5 text-2xl font-bold'>Senior program management</h2><a className='text-xl'>Managed complex projects with a focus on strategy, execution, and continuous improvement.</a>
               </div>
-              <div className='basis-1/4 bg3 text-black min-w-56 rounded-lg'>
+              <div className='basis-1/4 bg3 text-black min-w-56 min-h-56 rounded-lg pl-8 ph-8 pr-8'>
                 <h2 className='py-5 text-2xl font-bold'>Intercultural Experience</h2><a className='text-xl'>Successfully led projects across diverse, international teams in multicultural environments.</a>
               </div>
-              <div className='basis-1/4 bg3 text-black min-w-56 rounded-lg'>
+              <div className='basis-1/4 bg3 text-black min-w-56 rounded-lg pl-8 min-h-56 ph-8 pr-8'>
                 <h2 className='py-5 text-2xl font-bold'>Real Team Player</h2><a className='text-xl'>Strong collaborator, consistently fostering teamwork and collective problem-solving.</a>
               </div>
-              <div className='basis-1/4 bg3 text-black min-w-56 rounded-lg'>
+              <div className='basis-1/4 bg3 text-black min-w-56 rounded-lg pl-8 min-h-56 ph-8 pr-8'>
                 <h2 className='py-5 text-2xl font-bold'>Proven Leadership Skills</h2><a className='text-xl'>Demonstrated effective leadership in guiding teams to meet and exceed project goals.</a>
               </div>
-              <div className='basis-1/4 bg3 text-black min-w-56 rounded-lg'>
+              <div className='basis-1/4 bg3 text-black min-w-56 rounded-lg pl-8 min-h-56 ph-8 pr-8'>
                 <h2 className='py-5 text-2xl font-bold'>Driven by Entrepreneurship</h2><a className='text-xl'>Entrepreneurial mindset, always seeking innovative solutions and opportunities for growth.</a>
               </div>
-              <div className='basis-1/4 bg3 text-black min-w-56 rounded-lg'>
-                <h2 className='py-5 text-2xl font-bold'>Experience in Lightweight Materials & Process</h2><a className='text-xl'>Specialized in lightweight materials and manufacturing processes to optimize product performance.</a>
+              <div className='basis-1/4 bg3 text-black min-w-56 rounded-lg pl-8 min-h-56 ph-8 pr-8'>
+                <h2 className='py-5 text-2xl font-bold ph-8 pr-8'>Experience in Lightweight Materials & Process</h2><a className='text-xl'>Specialized in lightweight materials and manufacturing processes to optimize product performance.</a>
               </div>
             </div>
           </div>
