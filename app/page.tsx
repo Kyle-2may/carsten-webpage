@@ -8,11 +8,11 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <section className={inter.className}>
-      <div className="flex bg8 justify-end"> 
+      <div className="flex bg8 justify-end">
         <div >
-            <a className="flex text-4xl font-bold p-8 font-white">Braeunling Consulting</a>
+          <a className="flex text-4xl font-bold p-8 font-white">Braeunling Consulting</a>
         </div>
-    </div>
+      </div>
       <div className='flex-center flex-col'>
         <div className='flex flex-wrap bg1 padding-container max-container w-full pb-24 pt-24 pl-24'>
           <div>
@@ -20,7 +20,7 @@ export default function Home() {
           </div>
           <div className="flex-nowrap grow basis-1/2 justify-between gap-5 lg:gap-10 content-center pl-40">
             <h2 className='intro-header text-4xl font-bold -mt-1 -mb-3'>Automotive Engineering & Program Management </h2>
-            <p className='text-black roboto-regular text-2xl pt-5 -mt-1 -mb-3 max-w-screen-md'>Carsten Bräunling, Head of Braeunling Consulting,<br/> with 30 years of experience in the automotive Industry,<br/> working as a Senior Program Manager.</p>
+            <p className='text-black roboto-regular text-2xl pt-5 -mt-1 -mb-3 max-w-screen-md'>Carsten Bräunling, Head of Braeunling Consulting,<br /> with 30 years of experience in the automotive Industry,<br /> working as a Senior Program Manager.</p>
           </div>
         </div>
         <div className='flex-row pb-16 pt-16 pl-32 bg4 flex flex-wrap'>
@@ -42,7 +42,7 @@ export default function Home() {
             </ul>
           </div>
           <div className='flex-none grow-0 shrink pt-4 pl-20'>
-            <Image alt='Car image indicating different components' className='grow-0'width={664} height={560} src={Car}></Image>
+            <Image alt='Car image indicating different components' className='grow-0' width={664} height={560} src={Car}></Image>
           </div>
         </div>
         <div className='flex flex-row bg1 p-10'>
@@ -73,31 +73,31 @@ export default function Home() {
           </div>
         </div>
         <div className="footer footer-text text-6xl pl-10 pt-10 bg5">
-        <div>
-        <a className="pb-10 col text-6xl font-bold">CV Summery</a>
-        <div className='grid-cols-2'>
-        <ul className='list-none pt-10 text-black grid-cols-2'>
-        <li className="pb-4"><a className='font-bold'>Date of Birth</a> <a className='pl-12'>1968</a></li>
-        <li className="pb-4"><a className='font-bold'>Languages</a> <a className='pl-16'>German, English, French(basic)</a></li>
-        <li className="pb-4"><a className='font-bold'>1990 - 1994</a> <a className='pl-12'>Mechanical Engineer (Academy Lörrach, GER)Academy</a> </li>
-        <li className="pb-4"><a className='font-bold'>1994 - 1998</a> <a className='pl-12'>Peguform GmbH</a></li>
-        <li className="pb-4"><a className='font-bold'>1998 - 2001</a> <a className='pl-12'>Textron Automotive - NL </a></li>
-        <li className="pb-4"><a className='font-bold'>2001 - 2013</a> <a className='pl-12'>Peguform GmbH (SMP)</a></li>
-        <li className="pb-4"><a className='font-bold'>since 04/2013</a> <a className='pl-6'>Consultant, Program Mngr. & Development</a></li>
-        </ul>
-        </div>
-        </div>
-        <div className="pt-20">
-        <a className="cv-summary pb-10 col text-6xl font-bold">Contact</a>
-        <ul className='list-none pt-10 text-black'>
-        <li className='font-bold'>Alte Poststraße 82</li>
-        <li className='font-bold'>85598 Baldham</li>
-        <li className='font-bold'>Germany</li>
-        <li className='pt-8'><a className='font-bold'>Mobile:</a> <a className='font-base pl-8'>+49 172 7669667</a></li>
-        <li className='pt-2 pb-8'><a className='font-bold'>Office:</a> <a className='font-base pl-10'>+49 89 12304345</a></li>
-        <li className='font-bold'>Braeunling-Consulting@t-online.de</li>
-        </ul>
-        </div>
+          <div>
+            <a className="pb-10 col text-6xl font-bold">CV Summery</a>
+            <div>
+              <ul className='list-none pt-10 text-black grid-cols-2'>
+                <li className="pb-4"><a className='font-bold'>Date of Birth</a> <a className='pl-12'>1968</a></li>
+                <li className="pb-4"><a className='font-bold'>Languages</a> <a className='pl-16'>German, English, French(basic)</a></li>
+                <li className="pb-4"><a className='font-bold'>1990 - 1994</a> <a className='pl-12'>Mechanical Engineer (Academy Lörrach, GER)Academy</a> </li>
+                <li className="pb-4"><a className='font-bold'>1994 - 1998</a> <a className='pl-12'>Peguform GmbH</a></li>
+                <li className="pb-4"><a className='font-bold'>1998 - 2001</a> <a className='pl-12'>Textron Automotive - NL </a></li>
+                <li className="pb-4"><a className='font-bold'>2001 - 2013</a> <a className='pl-12'>Peguform GmbH (SMP)</a></li>
+                <li className="pb-4"><a className='font-bold'>since 04/2013</a> <a className='pl-6'>Consultant, Program Mngr. & Development</a></li>
+              </ul>
+            </div>
+          </div>
+          <div className="pt-20">
+            <a className="pb-10 col text-6xl font-bold">Contact</a>
+            <ul className='list-none pt-10 text-black'>
+              <li className='font-bold'>Alte Poststraße 82</li>
+              <li className='font-bold'>85598 Baldham</li>
+              <li className='font-bold'>Germany</li>
+              <li className='pt-8'><a className='font-bold'>Mobile:</a> <a className='font-base pl-8'>+49 172 7669667</a></li>
+              <li className='pt-2 pb-8'><a className='font-bold'>Office:</a> <a className='font-base pl-10'>+49 89 12304345</a></li>
+              <li className='font-bold'>Braeunling-Consulting@t-online.de</li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
