@@ -16,7 +16,7 @@ export default function Home() {
       <div className='flex-center flex-col'>
         <div className='flex flex-wrap bg1 padding-container max-container w-full pb-24 pt-24'>
           <div>
-            <Image width={240} height={240} src={CarstenImg} alt="Picture of Carsten Braeunling"></Image>
+            <Image alt="Picture of Carsten Braeunling" width={240} height={240} src={CarstenImg} ></Image>
           </div>
           <div className="flex-nowrap grow basis-1/2 justify-between gap-5 lg:gap-10 content-center">
             <h2 className='intro-header text-4xl font-bold -mt-1 -mb-3'>Automotive Engeneering & Program Management </h2>
