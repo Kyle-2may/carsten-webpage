@@ -1,0 +1,167 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap) format('woff2');
+  }
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-background {
+  background: #1A6193CC;
+  width: Fixed (1,728px)px;
+  height: Fixed (120px)px;
+  padding: 0px 85.33px 0px 85.33px;
+  gap: 0px;
+  border: 0px 0px 3px 0px;
+  opacity: 0px;
+}
+.nav-text {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.0025em;
+  text-align: right;
+  width: Fixed (1,728px)px;
+  height: Hug (60px)px;
+  gap: 42.67px;
+  opacity: 0px;
+  ;
+}
+.footer {
+  width: Fixed (1,728px)px;
+  height: Fixed (1,046px)px;
+  padding: 56px 88px 56px 88px;
+  gap: 153px;
+  opacity: 0px;
+  background: #FFFFFF3D;
+
+}
+
+.footer-text {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 28.8px;
+  text-align: left;
+}
+
+.intro {
+  display: inline;
+  width: Fixed (1,552px)px;
+  height: Hug (240px)px;
+  gap: 80px;
+  opacity: 0px;
+  
+}
+
+
+.intro-header {
+  font-family: Roboto;
+width: auto;
+text-align: left;
+color: #1A6193;
+padding-left: 10%;
+}
+
+.intro-body {
+  font-family: Roboto;
+text-align: left;
+opacity: 0px;
+padding-left: 10%;
+padding-right: 38%;
+}
+
+.Key-header {
+  font-weight: 700;
+  color: #1A6193;
+}
+
+.Key-items {
+  padding-left: 5%;
+  margin-top: 2%;
+  font-size: 24px;
+}
+
+.skill-box {
+  border-radius: 25px;
+  width: 80%;
+  height: 250px;
+  padding: 32px 24px 32px 24px;
+  gap: 50px;
+  opacity: 0px;
+  margin: auto;
+}
+
+.cv-pic {
+  clip-path: circle();
+  gap: 0px;
+  opacity: 0px;
+  margin-left: 88px;
+
+}
+
+.bg1 {
+  background: #ECECEC;
+  ;
+}
+
+.b2 {
+  background: #FFFFFF3D;
+}
+
+.bg3 {
+  background: #FFFFFF66;
+}
+
+.bg4 {
+  background: #DADADA;
+}
+
+.bg5{
+  background: #FFFFFF;
+}
+
+.col {
+color: #1A6193;
+}
+
+.intro {
+  width: Fixed (801px)px;
+  height: Hug (186px)px;
+  gap: 24px;
+  opacity: 0px;
+}
+
+.contact{
+  padding-top: 5%;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
