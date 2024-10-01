@@ -23,10 +23,10 @@ export default function Home() {
             <p className='text-black roboto-regular text-2xl pt-5 -mt-1 -mb-3 max-w-screen-md'>Carsten Bräunling, Head of Braeunling Consulting,<br /> with 30 years of experience in the automotive Industry,<br /> working as a Senior Program Manager.</p>
           </div>
         </div>
-        <div className='flex-row pb-16 pt-16 pl-32 bg4 flex flex-wrap'>
+        <div className='flex-row pb-16 pt-16 pl-28 bg4 flex gap-40'>
           <div className='flex flex-col'>
             <h2 className='Key-header font-bold text-4xl pb-4 pl-4'>Key Projects</h2>
-            <ul className="list-disc Key-items text-black">
+            <ul className="flex flex-col list-disc text-black grow min-w-full pl-8">
               <li className='pb-4 text-xl'>BMW G65/G78 Instrument panel global technical development & Industrialisation</li>
               <li className='pb-4 text-xl'>BMW G60/G68 Instrument panel global technical development & Industrialisation</li>
               <li className='pb-4 text-xl'>Eng Mngr BMW G05, G06 G07, G09 Instrument panel program coordination </li>
@@ -41,7 +41,7 @@ export default function Home() {
               <li className='pb-4 text-xl'>Daimler, Audi, Seat, MAN, Opel IP, CC, DP PM since 1994</li>
             </ul>
           </div>
-          <div className='flex-none grow-0 shrink pt-4 pl-20'>
+          <div className='flex pt-20 justify-end'>
             <Image alt='Car image indicating different components' className='grow-0' width={664} height={560} src={Car}></Image>
           </div>
         </div>
@@ -50,23 +50,23 @@ export default function Home() {
             <div>
               <h2 className='bold-40 lg:bold-64 text-4xl p-10 col font-bold'>My Expertise</h2>
             </div>
-            <div className='flex flex-wrap grow gap-x-8 gap-y-2 py-6 min-w-56 justify-center mh-16'>
-              <div className='basis-1/4 bg3 text-black min-w-56 min-h-56 rounded-lg pl-8 ph-16 pr-8'>
+            <div className='flex flex-wrap grow justify-center mh-16 gap-8'>
+              <div className='bg3 text-black basis-1/4 min-w-64 min-h-56 rounded-lg p-8'>
                 <h2 className='py-5 text-2xl font-bold'>Senior program management</h2><a className='text-xl'>Managed complex projects with a focus on strategy, execution, and continuous improvement.</a>
               </div>
-              <div className='basis-1/4 bg3 text-black min-w-56 min-h-56 rounded-lg pl-8 ph-8 pr-8'>
+              <div className='bg3 text-black basis-1/4 min-w-64 min-h-56 rounded-lg p-8'>
                 <h2 className='py-5 text-2xl font-bold'>Intercultural Experience</h2><a className='text-xl'>Successfully led projects across diverse, international teams in multicultural environments.</a>
               </div>
-              <div className='basis-1/4 bg3 text-black min-w-56 rounded-lg pl-8 min-h-56 ph-8 pr-8'>
+              <div className='bg3 text-black basis-1/4 min-w-64 rounded-lg min-h-56 p-8'>
                 <h2 className='py-5 text-2xl font-bold'>Real Team Player</h2><a className='text-xl'>Strong collaborator, consistently fostering teamwork and collective problem-solving.</a>
               </div>
-              <div className='basis-1/4 bg3 text-black min-w-56 rounded-lg pl-8 min-h-56 pt-30 pr-8'>
+              <div className='bg3 text-black basis-1/4 min-w-64 rounded-lg min-h-56 p-8'>
                 <h2 className='py-5 text-2xl font-bold'>Proven Leadership Skills</h2><a className='text-xl'>Demonstrated effective leadership in guiding teams to meet and exceed project goals.</a>
               </div>
-              <div className='basis-1/4 bg3 text-black min-w-56 rounded-lg pl-8 min-h-56 pt-30 pr-8'>
+              <div className='bg3 text-black basis-1/4 min-w-64 rounded-lg min-h-56 p-8'>
                 <h2 className='py-5 text-2xl font-bold'>Driven by Entrepreneurship</h2><a className='text-xl'>Entrepreneurial mindset, always seeking innovative solutions and opportunities for growth.</a>
               </div>
-              <div className='basis-1/4 bg3 text-black min-w-56 rounded-lg pl-8 min-h-56 pt-30 pr-8 '>
+              <div className='bg3 text-black basis-1/4 min-w-64 rounded-lg min-h-56 p-8'>
                 <h2 className='py-5 text-2xl font-bold ph-8 pr-8'>Experience in Lightweight Materials & Process</h2><a className='text-xl'>Specialized in lightweight materials and manufacturing processes to optimize product performance.</a>
               </div>
             </div>
@@ -87,7 +87,7 @@ export default function Home() {
               </ul>
             </div>
           </div>
-          <div className="pt-20">
+          <div className="pt-20 pb-20">
             <a className="pb-10 col text-4xl font-bold">Contact</a>
             <ul className='list-none pt-10 text-black'>
               <li className='font-bold text-2xl'>Alte Poststraße 82</li>
